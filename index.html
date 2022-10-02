@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>United Kingdom • Net Zero 2050</title>
+<meta name="description" content="Net Zero United Kingdom by 2050. We're here to make Net Zero Open. Search zero2050.net to find out more. #NetZeroOpen">
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+  <style>
+    
+.accordion {
+  background-color: #f5fff5;
+  color: #000000;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 14px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #f5fff5; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #f5fff5;
+  overflow: show;
+}
+
+  .accordion:after {
+  content: '▼';
+  color: #00ff15;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "▲";
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #efffe5;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #efffe5;
+}
+    
+  </style>
+<header>
+
+	<div class="container">
+
+		<div class="profile">
+
+			<div class="profile-image">
+
+				<img src="uk.png" alt="Zero Ecosystems Lab">
+
+			</div>
+
+			<div class="profile-user-settings">
+
+				<h1 class="profile-user-name"><p4 id="demo"></p4></h1>
+
+				<button class="btn profile-edit-btn">Net Zero 2050</button>
+
+				<button class="btn profile-settings-btn" aria-label="profile settings"><i class="fas fa-cog" aria-hidden="true"></i></button>
+
+			</div>
+
+			<div class="profile-stats">
+
+				<ul>
+					<li><a href="https://zero2030.net"><span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="40" height="40"></span> 2030</a></li>
+					<li><a href="https://zero2040.net"><span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="40" height="40"></span> 2040</a></li>
+					<li><a href="https://zero2050.net"><span class="profile-stat-count"><img src="ZEL.png" alt="Zero Ecosystems Lab icon" width="40" height="40"></span> 2050</a></li>
+				</ul>
+			</div>
+      <div class="profile-bio">
+	      <p4>United Kingdom</pr>
+			</div>
+
+		</div>
+		<!-- End of profile section -->
+
+	</div>
+	<!-- End of container -->
+
+</header>
+
+
+</main>
+<body>
+<script>
+var names = ['こんにちは', '안녕하세요', 'hola', 'bonjour', 'hallo', '你好', 'أهلا', 'नमस्ते', 'שלום', 'olá'];
+
+setInterval(function() {
+  var rand = Math.floor(Math.random() * 10);
+  document.getElementById("name").innerHTML = names[rand];
+}, 1250);
+</script>
+
+<center><p4><div id="name">hello</div></p4></center> 
+<br>
+<br>
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<center><div class="elfsight-app-36e61e23-b08e-4aa9-aca9-a63e3513491e"></div></center>
+<br>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+  <br>
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 1, 2050 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+  <br>
+  <script src="script.js"></script>
+</body>
+  </div>
+<div class="footer-basic">
+        <footer>
+		<center>
+                <p><a href="https://zero2050.net">Hello</a><p>
+                <p><a href="https://zero2050.net/privacy.html">Privacy</a><p>
+		</center>
+<br>
+<div class="elfsight-app-a55da353-2da4-438c-b6cc-736fb14e07af"></div>
+        </footer>
+    </div>
+<br>
+<center>
+<div class="elfsight-app-b325ebf2-622e-42ea-b60f-526a97f85f1b"></div></center>
+<br>
+<br>
+<br>
+ <div class="footer">
+ <p1> Zero Ecosystem is a not for profit company limited by guarantee (Company No. 13349586) registered in England, United Kingdom </p1>
+</div>
+
+</html>
